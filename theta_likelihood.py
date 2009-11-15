@@ -29,10 +29,6 @@ def theta_list_maker(start, end, increment):
 #BRA inputs key = gene name, value = list (Length, segregating sites, sample size)
 inputs = {'EP0001': [418, 16, 278], 'EP0141':[530, 54, 278], 'EP0143':[717, 17, 278], 'EP0144':[245, 29, 278], 'EP0188':[291, 4, 278], 'EP0222':[387, 4, 278], 'EP0267':[367, 18, 278], 'EP0285':[677, 29, 278], 'EP0314':[538, 27, 278], 'EP0317':[540, 17, 278]}
 
-#CRB
-#inputs = {'EP0001': [418, 5, 170], 'EP0141':[530, 4, 170], 'EP0143':[717, 1, 170], 'EP0144':[245, 7, 170], 'EP0188':[291, 2, 170], 'EP0222':[387, 3, 170], 'EP0267':[367, 4, 170], 'EP0285':[677, 29, 170], 'EP0314':[538, 11, 170], 'EP0317':[540, 3, 170]}
-
-
 
 #sort the keys into a list
 input_keys = inputs.keys()
