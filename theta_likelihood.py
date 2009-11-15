@@ -33,7 +33,6 @@ def theta_list_maker(start, end, increment):
 inputs = {'EP0001': [418, 5, 170], 'EP0141':[530, 4, 170], 'EP0143':[717, 1, 170], 'EP0144':[245, 7, 170], 'EP0188':[291, 2, 170], 'EP0222':[387, 3, 170], 'EP0267':[367, 4, 170], 'EP0285':[677, 29, 170], 'EP0314':[538, 11, 170], 'EP0317':[540, 3, 170]}
 
 
-
 #sort the keys into a list
 input_keys = inputs.keys()
 input_keys.sort()
